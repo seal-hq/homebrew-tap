@@ -5,27 +5,27 @@
 class Seal < Formula
   desc "Large files and secrets between people and agents, never through the chat"
   homepage "https://seal.net/cli"
-  version "1.5.0"
+  version "1.6.0"
 
   on_macos do
     on_arm do
       url "https://seal.net/releases/download/v#{version}/seal-#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "7f316c5f57d1ac703ef719cddeaae75f2e6536862c20fc1a7c53579ec629374c"
+      sha256 "daa5a5bdf53c7c7ce9b35e716dbe61bc1617da79877a93213d022f79b1f5648b"
     end
     on_intel do
       url "https://seal.net/releases/download/v#{version}/seal-#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "e6ac50525d9a86ce70e25c9f33f0a5fffcbe89b2056aa8ed726feb44e90d5b87"
+      sha256 "205dbc1c2216ea72bf3ac7f844768dee1e50496b3e6bf541bbc6c86caba653c3"
     end
   end
 
   on_linux do
     on_arm do
       url "https://seal.net/releases/download/v#{version}/seal-#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "a8cb3718d717bf8886d43a6d5a304921fc06955379ba23d0fee75155923b3222"
+      sha256 "a85dedfd36ae03a70f7ee111d8ceba6e66a7b7ad2252787634f79523b8a6bf3c"
     end
     on_intel do
       url "https://seal.net/releases/download/v#{version}/seal-#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "58e3797b02873087c4df84074f06321b4f0c81f095dbbbe8aad5e16ebce4db44"
+      sha256 "1d2ccc4d07cc9a8b370435e5c8172c3cf2c55a25b31616e9e2c8db439e458d70"
     end
   end
 
